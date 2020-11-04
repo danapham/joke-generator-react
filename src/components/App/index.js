@@ -1,7 +1,7 @@
 import React from 'react';
 import jokesData from '../../helpers/data/jokesData';
 import Setup from '../Setup';
-import Punchline from '../Punchline';
+// import Punchline from '../Punchline';
 
 class App extends React.Component {
   state = {
