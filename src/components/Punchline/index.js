@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export default class Punchline extends Component {
   static propTypes = {
     joke: PropTypes.shape({
-      punchline: PropTypes.string.isRequired,
+      punchline: PropTypes.string,
     }),
   };
 
