@@ -1,5 +1,40 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #474747;
+  width: 50%;
+  border-radius: 20px;
+  margin-top: 10%;
+  padding: 5%;
+  flex-flow: row wrap;
+}
+
+#logo {
+  width: 75%;
+  display: block;
+  margin-bottom: 10%;
+}
+
+#setup, #punchline {
+  width: 100%;
+  text-transform: uppercase;
+  color: white;
+  font-size: 150%;
+}
+
+.black-btn {
+  background-color: black;
+  color: white;
+  margin-top: 5%;
+  font-size: 150%;
+  width: 50%;
+  height: 20%;
 }
 
 .App-logo {
