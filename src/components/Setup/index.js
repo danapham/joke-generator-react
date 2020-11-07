@@ -13,7 +13,7 @@ export default class Setup extends Component {
   render() {
     const { joke } = this.props;
     return (
-      <div>
+      <div id="setup">
         {joke.setup}
       </div>
     );
